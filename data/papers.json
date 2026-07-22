@@ -1,0 +1,174 @@
+[
+  {
+    "slug": "graph-paper",
+    "title": "Graph Paper",
+    "emoji": "▦",
+    "category": "Grid & graph",
+    "blurb": "Classic square-grid graph paper for math, plotting functions, drawing charts, and pixel or bullet-journal layouts. The default 1/4-inch grid is the size most school worksheets and quad notebooks use.",
+    "tip": "Switch to 5 mm or 1/5 inch for tighter plots, or 1 cm for roomier graphing. Turn the margin on if you plan to hole-punch or bind the sheet.",
+    "controls": ["spacing", "color", "orient", "margin"],
+    "defaults": { "spacing": 18, "color": "gray", "orient": "portrait", "margin": false },
+    "spacings": [
+      { "label": "1/4 inch", "pt": 18 },
+      { "label": "1/5 inch", "pt": 14.4 },
+      { "label": "5 mm", "pt": 14.17 },
+      { "label": "1 cm", "pt": 28.35 },
+      { "label": "1/8 inch", "pt": 9 }
+    ]
+  },
+  {
+    "slug": "grid-paper",
+    "title": "Grid Paper",
+    "emoji": "▤",
+    "category": "Grid & graph",
+    "blurb": "Plain square grid paper — the same even squares as graph paper, defaulting to a metric 5 mm grid that suits engineering rough work, tiling and floor-plan sketches, and cross-stitch or perler-bead patterns.",
+    "tip": "Pick 1 cm squares for quick scale drawings, or drop to 1/8 inch when you need fine detail. Black or blue lines photocopy more cleanly than gray.",
+    "controls": ["spacing", "color", "orient", "margin"],
+    "defaults": { "spacing": 14.17, "color": "gray", "orient": "portrait", "margin": false },
+    "spacings": [
+      { "label": "5 mm", "pt": 14.17 },
+      { "label": "1 cm", "pt": 28.35 },
+      { "label": "1/4 inch", "pt": 18 },
+      { "label": "1/5 inch", "pt": 14.4 },
+      { "label": "1/8 inch", "pt": 9 }
+    ]
+  },
+  {
+    "slug": "dot-grid-paper",
+    "title": "Dot Grid Paper",
+    "emoji": "⋱",
+    "category": "Grid & graph",
+    "blurb": "Dot grid paper places a small dot at each grid intersection instead of full lines, so your own writing and drawing stay the star. It is the standard for bullet journaling, hand-lettering guides, and clean diagrams.",
+    "tip": "5 mm dots match most bullet-journal notebooks; 1/4 inch gives more breathing room. Light gray dots nearly vanish once you write over them.",
+    "controls": ["spacing", "color", "orient", "margin"],
+    "defaults": { "spacing": 14.17, "color": "gray", "orient": "portrait", "margin": false },
+    "spacings": [
+      { "label": "5 mm", "pt": 14.17 },
+      { "label": "1/4 inch", "pt": 18 },
+      { "label": "1/5 inch", "pt": 14.4 },
+      { "label": "1 cm", "pt": 28.35 }
+    ]
+  },
+  {
+    "slug": "dot-paper",
+    "title": "Dot Paper",
+    "emoji": "•",
+    "category": "Grid & graph",
+    "blurb": "Dot paper is a spaced grid of dots used for dots-and-boxes games, geoboard and array math, and lettering practice. The wider 1/4-inch default keeps the dots easy to connect by hand.",
+    "tip": "For the classic dots-and-boxes game, print at 1/4 inch and play on a portrait sheet. Choose a darker line color if you are photocopying for a class.",
+    "controls": ["spacing", "color", "orient", "margin"],
+    "defaults": { "spacing": 18, "color": "gray", "orient": "portrait", "margin": false },
+    "spacings": [
+      { "label": "1/4 inch", "pt": 18 },
+      { "label": "1/5 inch", "pt": 14.4 },
+      { "label": "5 mm", "pt": 14.17 },
+      { "label": "1 cm", "pt": 28.35 }
+    ]
+  },
+  {
+    "slug": "isometric-paper",
+    "title": "Isometric Paper",
+    "emoji": "🔷",
+    "category": "Grid & graph",
+    "blurb": "Isometric paper is a triangular grid — vertical lines crossed by two sets of 30-degree diagonals — for drawing 3D objects, isometric game maps, and packaging or product sketches without a ruler.",
+    "tip": "Draw box edges along the three line directions and cubes come out in true isometric perspective. Smaller spacing packs in more detail for complex builds.",
+    "controls": ["spacing", "color", "orient", "margin"],
+    "defaults": { "spacing": 14.17, "color": "blue", "orient": "portrait", "margin": false },
+    "spacings": [
+      { "label": "5 mm", "pt": 14.17 },
+      { "label": "1/4 inch", "pt": 18 },
+      { "label": "1 cm", "pt": 28.35 },
+      { "label": "1/8 inch", "pt": 9 }
+    ]
+  },
+  {
+    "slug": "hexagonal-paper",
+    "title": "Hexagonal Paper",
+    "emoji": "⬡",
+    "category": "Grid & graph",
+    "blurb": "Hex paper tiles the page with even hexagons — the standard for tabletop and wargame maps, organic chemistry ring structures, and hex-based board game design.",
+    "tip": "Larger hexes suit game maps you will draw terrain into; smaller hexes fit chemistry chains. One hex equals one map tile at any size you choose.",
+    "controls": ["spacing", "color", "orient", "margin"],
+    "defaults": { "spacing": 18, "color": "gray", "orient": "portrait", "margin": false },
+    "spacings": [
+      { "label": "Small", "pt": 14.4 },
+      { "label": "Medium", "pt": 18 },
+      { "label": "Large", "pt": 27 }
+    ]
+  },
+  {
+    "slug": "engineering-paper",
+    "title": "Engineering Paper",
+    "emoji": "📐",
+    "category": "Grid & graph",
+    "blurb": "Engineering paper uses a fine grid with a heavier line every fifth square, so you can sketch to scale and still read whole units at a glance. Traditional pads print the grid faintly on the back — work goes on the plain front and the grid shows through.",
+    "tip": "The default 1/10-inch grid with a bold 1/2-inch major line is the classic green engineering-pad layout. Print single-sided for a working front, or use it grid-side up for graphing.",
+    "controls": ["spacing", "color", "orient", "margin"],
+    "defaults": { "spacing": 7.2, "color": "green", "orient": "portrait", "margin": false },
+    "spacings": [
+      { "label": "1/10 inch", "pt": 7.2 },
+      { "label": "1/8 inch", "pt": 9 },
+      { "label": "5 mm", "pt": 14.17 }
+    ]
+  },
+  {
+    "slug": "lined-paper",
+    "title": "Lined Paper",
+    "emoji": "📝",
+    "category": "Writing & notes",
+    "blurb": "Lined writing paper with a colored left margin. Choose your ruling: wide ruled (11/32 inch) for younger writers, college ruled (9/32 inch) for everyday note-taking, or narrow ruled (1/4 inch) to fit more lines per page.",
+    "tip": "College ruled fits about 33 lines on a Letter page; wide ruled fits about 25. Switch the ruling above and the line spacing updates before you print.",
+    "controls": ["ruling", "color", "orient", "margin"],
+    "defaults": { "spacing": 24.75, "color": "blue", "orient": "portrait", "margin": false },
+    "rulings": [
+      { "label": "Wide ruled (11/32 in)", "pt": 24.75 },
+      { "label": "College ruled (9/32 in)", "pt": 20.25 },
+      { "label": "Narrow ruled (1/4 in)", "pt": 18 }
+    ]
+  },
+  {
+    "slug": "handwriting-paper",
+    "title": "Handwriting Paper",
+    "emoji": "✍️",
+    "category": "Writing & notes",
+    "blurb": "Handwriting practice paper with a solid top line, a dashed midline, and a solid baseline in each row — the guide young writers use to size and place letters correctly for print and early cursive.",
+    "tip": "Letters like a and e sit between the midline and baseline; tall letters reach the top line. Larger row heights suit beginners; drop to the smaller size as handwriting matures.",
+    "controls": ["spacing", "color", "orient", "margin"],
+    "defaults": { "spacing": 36, "color": "gray", "orient": "portrait", "margin": false },
+    "spacings": [
+      { "label": "Large (5/8 in)", "pt": 45 },
+      { "label": "Medium (1/2 in)", "pt": 36 },
+      { "label": "Small (3/8 in)", "pt": 27 }
+    ]
+  },
+  {
+    "slug": "cornell-notes-paper",
+    "title": "Cornell Notes Paper",
+    "emoji": "🗒️",
+    "category": "Writing & notes",
+    "blurb": "The Cornell note-taking template: a narrow left cue column for questions and keywords, a wide right column for notes, and a summary band across the bottom. A proven layout for lectures and active review.",
+    "tip": "Take notes in the right column during class, add cue questions on the left afterward, then write a one- or two-line summary at the bottom to lock in recall.",
+    "controls": ["spacing", "color", "orient", "margin"],
+    "defaults": { "spacing": 24.75, "color": "gray", "orient": "portrait", "margin": false },
+    "spacings": [
+      { "label": "Wide lines", "pt": 27 },
+      { "label": "Medium lines", "pt": 24.75 },
+      { "label": "Narrow lines", "pt": 20.25 }
+    ]
+  },
+  {
+    "slug": "music-staff-paper",
+    "title": "Music Staff Paper",
+    "emoji": "🎼",
+    "category": "Specialty",
+    "blurb": "Blank music manuscript paper — evenly spaced five-line staves for writing melodies, exercises, and lead sheets by hand. No clefs or time signatures are printed, so it works for any instrument or key.",
+    "tip": "Larger staff spacing gives more room for note heads and lyrics; smaller spacing fits more staves per page for dense scores. Landscape suits wide piano systems.",
+    "controls": ["spacing", "color", "orient", "margin"],
+    "defaults": { "spacing": 8, "color": "black", "orient": "portrait", "margin": false },
+    "spacings": [
+      { "label": "Large staves", "pt": 10 },
+      { "label": "Medium staves", "pt": 8 },
+      { "label": "Small staves", "pt": 6 }
+    ]
+  }
+]
