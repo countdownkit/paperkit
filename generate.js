@@ -58,7 +58,7 @@ function layout({ title, desc, urlPath, h1, body }) {
 </main>
 <footer class="site-foot no-print"><div class="wrap">
   <a href="${BASE}/">Home</a><a href="${BASE}/#grids">Grid & graph paper</a><a href="${BASE}/#writing">Writing paper</a>
-  <span>· ${SITE} — free printable paper. No downloads, no signups: pick a paper, customize, and print. Part of <a href="https://elevatedprogress.com/">Elevated Progress</a>. · <a href="https://elevatedprogress.com/privacy/">Privacy Policy</a></span>
+  <span>· ${SITE} — free printable paper. No downloads, no signups: pick a paper, customize, and print. Part of <a href="https://elevatedprogress.com/">Elevated Progress</a>. · <a href="https://elevatedprogress.com/about/">About</a> · <a href="https://elevatedprogress.com/contact/">Contact</a> · <a href="https://elevatedprogress.com/privacy/">Privacy Policy</a></span>
 </div></footer>
 <script src="${BASE}/paper.js"></script>
 <script src="${BASE}/tool.js" defer></script>
