@@ -170,7 +170,20 @@ for (const pg of DATA) paperPage(pg);
   const body = `<p class="lead">Pick a paper, set the grid spacing, line color, and orientation, and print it straight from your browser at true physical scale. Every sheet also saves as a PDF from the print dialog — no downloads, no account, nothing to install.</p>
   ${sections}
   <div class="ad-slot no-print">Advertisement</div>
-  <div class="prose"><p>These are working sheets, not template downloads: the paper you see on each page is exactly what prints. Adjust the spacing and it redraws instantly, so a 1/4-inch grid measures a true 1/4 inch on the page. The print stylesheet strips the header, controls, and ads, leaving a clean full-page sheet — or a PDF, if you pick "Save as PDF" in the print dialog.</p></div>`;
+  <div class="prose"><p>These are working sheets, not template downloads: the paper you see on each page is exactly what prints. Adjust the spacing and it redraws instantly, so a 1/4-inch grid measures a true 1/4 inch on the page. The print stylesheet strips the header, controls, and ads, leaving a clean full-page sheet — or a PDF, if you pick "Save as PDF" in the print dialog.</p></div>
+  <h2>Which printable paper should you use?</h2>
+  <div class="prose">
+    <p><b>Math, graphing, and technical work.</b> Reach for graph paper or grid paper — both are even square grids. The 1/4-inch graph default matches most quad-ruled school notebooks; drop to 1/5 inch, 5 mm, or 1/8 inch for denser plots, or step up to 1 cm for roomier graphing. Engineering paper adds a heavier line every fifth square — a bold 1/2-inch major line over a 1/10-inch grid — so you can sketch to scale and still read whole units at a glance.</p>
+    <p><b>Journaling, planning, and diagrams.</b> Dot grid paper marks only the intersections instead of full lines, so your own writing stays the focus; the 5 mm spacing matches most bullet-journal notebooks. Dot paper spaces the dots wider (1/4 inch) for dots-and-boxes games and geoboard or array math.</p>
+    <p><b>3D sketching and design.</b> Isometric paper is a triangular grid — vertical lines crossed by two sets of 30-degree diagonals — for drawing cubes and iso maps without a ruler. Hexagonal paper tiles the page with even hexagons for tabletop game maps and organic-chemistry ring structures.</p>
+    <p><b>Writing, notes, and music.</b> Lined paper offers three rulings: wide ruled (11/32 inch), college ruled (9/32 inch, about 33 lines per page), and narrow ruled (1/4 inch) to fit more. Handwriting paper adds a dashed midline between the top line and baseline so letters get sized correctly, and Cornell notes paper splits the page into a cue column, a note area, and a summary band. Music staff paper gives you blank five-line staves with no clef printed, so it works in any key or instrument.</p>
+    <h2>How to print at true size</h2>
+    <p>Every sheet is drawn to real physical dimensions, so print it at full scale. In the print dialog set the scale to <b>100%</b> or <b>Actual Size</b> — not "Fit to page," which shrinks the grid and throws off the measurements. A 1/4-inch square then measures a genuine 1/4 inch. To keep a copy, choose <b>Save as PDF</b> as the destination in that same dialog.</p>
+    <p><b>My grid prints smaller than it should — why?</b> The dialog is scaling the page to fit. Set scaling to 100% or Actual Size and turn off "Fit to printable area."</p>
+    <p><b>What is the difference between college ruled and wide ruled?</b> College ruled lines sit 9/32 inch apart (roughly 33 lines on a Letter page); wide ruled is 11/32 inch (about 25 lines) and suits younger writers.</p>
+    <p><b>Which paper is best for a bullet journal?</b> Dot grid at 5 mm — the spacing most bullet-journal notebooks use. Set the dots to light gray and they nearly disappear once you write over them.</p>
+    <p><b>Can I change the spacing and line color before printing?</b> Yes. Each paper page has controls for spacing, line color, orientation, and an optional 1/2-inch margin for hole-punching; the sheet redraws instantly, then you print.</p>
+  </div>`;
   writePage(`/`, layout({ title, desc, urlPath: `/`, h1: `Free Printable Paper`, body }));
 }
 
